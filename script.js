@@ -7,7 +7,6 @@ var topicArr = ["funny", "sad", "happy", "cute", "space",
 // renderButtons will display our topic buttons for all topics within the
 // topics array.
 function renderButtons() {
-  // Empty the buttons panel before redrawing it
   $("#buttonPanel").empty();
 
   // Loop through topic array
