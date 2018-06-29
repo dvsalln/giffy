@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Gittin Giffy</title>
+
+  <!-- Link to the jQuery Library -->
+  <script src="https://code.jquery.com/jquery-2.2.3.js"></script>
+
+  <!-- Link to the Bootstrap Library -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+
+  <!-- Link to an additional CSS File -->
+  <link rel="stylesheet" href="style.css">
+
+  <link href="https://fonts.googleapis.com/css?family=Josefin+Sans|Quicksand:500,700|Shrikhand" rel="stylesheet">
+
+</head>
+
+<body>
+
+  
+  <div class="container">
+
+    
+    <div class="jumbotron">
+
+      <h1 class="text-center">Gittin Giffy</h1>
+
+    </div> 
+
+    <!-- Row containing topic buttons -->
+    <div class="row" id="buttonPanel">
+    </div> 
+
+    <!-- Row containing Gifs and input form -->
+    <div class="row">
+
+      <!-- GIFs-->
+      <div class="col-lg-10" id="gifPanel">
+      </div> 
+
+      <!-- Input form -->
+      <div class="col-lg-2 formPanel"> 
+        <form id="topic-form">
+          <label for="topic-input" class="inputLabel">Add a topic</label>
+          <input type="text" id="topic-input"><br>
+
+          <!-- Button triggers a new topic to be added -->
+          <input id="add-topic" type="submit" value="Submit">
+        </form>
+      </div> 
+
+    </div> 
+
+  </div>
+<!--Link to JavaScript -->
+  <script type="text/javascript" src="script.js"></script>
+
+</body>
+</html>
